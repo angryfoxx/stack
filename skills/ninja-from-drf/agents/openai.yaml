@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ninja from DRF"
+  short_description: "Migrate DRF APIs to django-ninja"
+  default_prompt: "Use $ninja-from-drf to migrate an existing Django REST Framework API to django-ninja while keeping routes, contracts, auth/permissions, throttling, and tests aligned."
