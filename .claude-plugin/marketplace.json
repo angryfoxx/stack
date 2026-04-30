@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "stack",
+  "version": "0.1.0",
+  "description": "Personal collection of Claude Code plugins by angryfox",
+  "owner": { "name": "Ömer Faruk Korkmaz", "email": "omer@upsonic.co" },
+  "metadata": {
+    "homepage": "https://github.com/angryfox/stack"
+  },
+  "plugins": [
+    {
+      "name": "incremental-commit",
+      "source": "./plugins/incremental-commit",
+      "description": "Break pending git changes into multiple logical atomic commits with Conventional Commit messages, ordered by dependency.",
+      "version": "0.1.0",
+      "category": "productivity",
+      "keywords": ["git", "commits", "conventional-commits", "workflow"]
+    },
+    {
+      "name": "ninja-from-drf",
+      "source": "./plugins/ninja-from-drf",
+      "description": "Migrate a Django REST Framework API to django-ninja / django-ninja-extra while preserving routes, schemas, auth, permissions, throttling, pagination, filtering, and tests.",
+      "version": "0.1.0",
+      "category": "development",
+      "keywords": ["django", "drf", "django-ninja", "migration", "python"]
+    }
+  ]
+}

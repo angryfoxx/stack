@@ -1,0 +1,10 @@
+{
+  "name": "ninja-from-drf",
+  "version": "0.1.0",
+  "description": "Migrate an existing Django API from Django REST Framework to django-ninja or django-ninja-extra while preserving routes, request/response contracts, auth, permissions, throttling, pagination, filtering, and test coverage.",
+  "author": { "name": "Ömer Faruk Korkmaz", "email": "omer@upsonic.co" },
+  "homepage": "https://github.com/angryfox/stack",
+  "repository": "https://github.com/angryfox/stack",
+  "license": "MIT",
+  "keywords": ["django", "drf", "django-ninja", "django-ninja-extra", "migration", "api", "python"]
+}
